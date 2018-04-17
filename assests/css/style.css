@@ -1,7 +1,11 @@
 body {
     color: #777777;
-    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
 }
 
 #content {
@@ -10,8 +14,12 @@ body {
     padding: 20px;
     margin-right: 200px;
     margin-left: 200px;
-    margin-top: 150px;
+    margin-top: 50px;
+    width: 960px;
+    
 }
+
+
 
 h1 {
     background-color: #4aaaa5;
@@ -35,36 +43,72 @@ h2 {
 #nav-bar {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
-    width: 100%;
+    width: 200%;
     padding: 20px;
     margin-top: 0%;
     margin-bottom: 20px;
     height: 27px;
 }
 #box-1 {
-    float: right;
+    float: left;
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 0%;
+    position: absolute;
+    right: 750px;
+    
 }
 
 #box-2 {
-    float: right;
+    float: left;
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 0%;
+    position: absolute;
+    right: 650px;
 }
 
 #box-3 {
-    float: right;
+    float: left;
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 0%;
+    position: absolute;
+    right: 550px;
 }
 
 #photo {
     float: left;
     padding-right: 10px;
+}
+
+#photo-1 {
+    float: left;
+    padding: 20px;
+   
+}
+
+#photo-2 {
+    float: left;
+    padding: 20px;
+    
+}
+
+#photo-3 {
+    float: left;
+    padding: 20px;
+}
+
+#photo-4 {
+    float: left;
+    padding: 20px;
+    
+}
+
+#photo-5 {
+    float: left;
+    padding: 20px;
+    
 }
 
 #footer {
@@ -73,4 +117,7 @@ h2 {
     background-color: #666666;
     color: #ffffff;
     text-align: center;
+    width: 200%;
+    position: fixed;
+    bottom: 0px;
 }
