@@ -5,7 +5,8 @@ body {
     background-image: url("../images/background.png");
     background-repeat: repeat;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    width: 960px;
+    min-width: 960px;
+    width: 100%;
 }
 
 #content {
@@ -15,13 +16,13 @@ body {
     margin-right: 200px;
     margin-left: 200px;
     margin-top: 50px;
-    width: 960px;
+    
     
 }
 
 
 
-h1 {
+#logo {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
@@ -31,11 +32,11 @@ h1 {
     width: 20%;
     position: absolute;
     left: 200px;
-    top: 0px;
+    top: -8px;
     z-index: 1;
 }
 
-h2 {
+h1 {
     color: #4aaaa5;
     border-bottom: 1px solid #cccccc;
     
@@ -43,10 +44,11 @@ h2 {
 #nav-bar {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
-    width: 200%;
-    padding: 20px;
+    width: 100%;
+    min-width: 960px;
     margin-top: 0%;
     margin-bottom: 20px;
+    padding: 20px;
     height: 27px;
 }
 #box-1 {
@@ -55,7 +57,7 @@ h2 {
     margin-bottom: 20px;
     margin-top: 0%;
     position: absolute;
-    right: 750px;
+    right: 360px;
     
 }
 
@@ -65,7 +67,7 @@ h2 {
     margin-bottom: 20px;
     margin-top: 0%;
     position: absolute;
-    right: 650px;
+    right: 260px;
 }
 
 #box-3 {
@@ -74,7 +76,7 @@ h2 {
     margin-bottom: 20px;
     margin-top: 0%;
     position: absolute;
-    right: 550px;
+    right: 160px;
 }
 
 #photo {
@@ -117,7 +119,9 @@ h2 {
     background-color: #666666;
     color: #ffffff;
     text-align: center;
-    width: 200%;
+    width: 100%;
     position: fixed;
     bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
