@@ -49,7 +49,14 @@ body {
     float: left;
 }
 
+nav {
+    float: right;
+    
+    
+}
+
 #content {
+    clear: both;
     background-color: #ffffff;
     border: 1px solid #dddddd;
     padding: 20px;
@@ -66,7 +73,7 @@ h1 {
     border-bottom: 1px solid #cccccc;
     
 }
-#nav-bar {
+/* #nav-bar { 
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
     width: 100%;
@@ -75,7 +82,7 @@ h1 {
     margin-bottom: 20px;
     padding: 20px;
     height: 27px;
-}
+} */
 #box-1 {
     float: left;
     padding: 20px;
