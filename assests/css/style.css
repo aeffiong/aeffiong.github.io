@@ -173,16 +173,16 @@ input[type=submit] {
 }
 /* footer styling */
 #footer {
-    clear: both;
+    height: 50px;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin-top: 1000px;
+    width: 100%;
     padding: 20px 0;
     background-color: #666666;
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
     font-size: 12px;   
     text-align: center;
-    width: 100%;
-    /* position: fixed; */
-    bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
 }
