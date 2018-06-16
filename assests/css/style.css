@@ -19,6 +19,7 @@ body {
     height: 100%;
 } */
 
+
 .container {
     width: 100%;
     max-width: 960px;
@@ -69,9 +70,14 @@ nav a {
     border-left: 1px solid #efefef;
 }
 
-nav a:first-child {
+/* nav a:first-child {
     border-left: 0 none;
-}
+} */
+
+/* #photo {
+    display: inline-block;
+    margin-right: 25px;
+} */
 /* main text content styling */
 #content {
     clear: both;
