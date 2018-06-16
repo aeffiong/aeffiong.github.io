@@ -181,8 +181,8 @@ input[type=submit] {
 
 }
 /* footer styling */
-#footer {
-    height: 50px;
+.footer-copyright {
+    /* height: 50px;
     position: relative;
     right: 0;
     left: 0;
@@ -193,5 +193,7 @@ input[type=submit] {
     color: #ffffff;
     border-top: 8px solid teal;
     font-size: 12px;   
-    text-align: center;
+    text-align: center; */
+    color: black;
+    
 }
